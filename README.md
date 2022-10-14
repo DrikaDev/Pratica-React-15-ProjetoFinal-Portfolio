@@ -1,12 +1,12 @@
 # Pratica-React-15-ProjetoFinal-Portfolio <img src="https://i.ibb.co/QpLTKSz/badge-M2-T2.png" alt="Badge Vai Na Web T2.1" width="100" align="right">
 
 ## Uhullllll 😍✨👏🏼
-É com muito prazer que finalmente apresento o desafio final do curso Vai Na Web! 🚀🧑🏻‍🚀\
+É com muito prazer que finalmente apresento o desafio final do curso de Front-End do Vai Na Web! 🚀🧑🏻‍🚀\
 Exercício proposto para treinarmos os estudos com React seguindo as seguintes instruções:
 
 - Execução de um portfólio/BLOG pessoal, com links até suas redes sociais e projetos já executados.
 - A página deve conter pelo menos um exemplo de react-router.
-- Mais o projeto "clone" dos Objetivos de Desenvolvimento Sustentável com os cards abordando problemas reais das localidades da onde moramos, no caso o bairro do Jaçanã 😁
+- Mais o projeto "clone" dos Objetivos de Desenvolvimento Sustentável com os cards abordando problemas reais das localidades da onde moramos, no meu caso foi sobre o bairro do Jaçanã 😁
 
 <h2> Linguagem utilizada: </h2>
 
