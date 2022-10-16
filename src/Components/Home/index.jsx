@@ -33,7 +33,6 @@ export default function Home() {
                 </S.Title>
             </S.Box>
 
-            
             <h5>&copy; Projeto final do Curso Vai Na Web - Prof. Marlon Yuri - Feito com 🧡 pela aluna Adriana Gutierrez - 10/2022</h5>
             
         </S.Container>
