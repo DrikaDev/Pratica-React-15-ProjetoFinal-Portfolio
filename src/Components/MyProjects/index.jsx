@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import Astronauta from "../../Assets/Drika_Astronauta.png"
 import Harry from "../../Assets/HarryPotter.png"
 import Dupla from "../../Assets/DesafioEmDupla.png"
 import Lista from "../../Assets/ToDoList.png"
@@ -14,7 +15,7 @@ import * as S from "./style"
 
 const estiloDoCarrossel = {
     autoplay: true,
-    autoplayInterval: 5000,
+    autoplayInterval: 2000,
     // speed: 1000,
     slidesToShow: 2,
     swipeable: true,
@@ -31,9 +32,11 @@ const estiloDoCarrossel = {
 export default function MyProjects() {
     return (
         <S.Container>
+
             <S.Home>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta"/>Início</Link>
             </S.Home>
+
             <h1>Meus Projetos</h1>
             <h3>Alguns dos meus projetos realizados ao longo desse ano de 2022:</h3>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import Astronauta from "../../Assets/Drika_Astronauta.png"
 import MeLiga from "../../Assets/MeLiga.png"
 import Email from "../../Assets/email.png"
 import Whats from "../../Assets/whatsapp.png"
@@ -11,8 +12,9 @@ import * as S from "./style"
 export default function AboutMe() {
     return (
         <S.Container>
+            
             <S.Home>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta"/>Início</Link>
             </S.Home>
 
             <h1>Fale Comigo!</h1>

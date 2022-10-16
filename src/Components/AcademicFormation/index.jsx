@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import Astronauta from "../../Assets/Drika_Astronauta.png"
 import Unip from "../../Assets/unip.png"
 import Uninove from "../../Assets/uninove.png"
 import VaiNaWeb from "../../Assets/VaiNaWeb.png"
@@ -9,7 +10,7 @@ export default function AcademicFormation() {
     return (
         <S.Container>
             <S.Home>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta"/>Início</Link>
             </S.Home>
 
             <h1>Formação Acadêmica</h1>

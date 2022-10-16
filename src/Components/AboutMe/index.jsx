@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import * as S from "./style"
+import Astronauta from "../../Assets/Drika_Astronauta.png"
 import DesenhoDrikaDev from "../../Assets/Oie.png"
 import CV from "../../Assets/CV Drika_Dev.pdf"
+import * as S from "./style"
 
 export default function AboutMe() {
     return (
         <S.Container>
 
             <S.Home>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta"/>Início</Link>
             </S.Home>
 
             <S.AboutMe>

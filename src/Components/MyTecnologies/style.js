@@ -1,4 +1,4 @@
-import styled, {Keyframes} from "styled-components";
+import styled from "styled-components";
 import Background from "../../Assets/Background.1.jpg"
 
 export const Container = styled.section`
@@ -14,23 +14,33 @@ export const Container = styled.section`
 
 export const Home = styled.div`
     height: 3rem;
-    padding: 1rem;
     width: 100%;
+
+    img{
+        object-fit: contain;
+        width: 3rem;
+    }
     
     a{
+        align-items: center;
         color: whitesmoke;
-        text-decoration: none;
+        display: flex;
+        flex-direction: row;
         font-size: 1.5rem;
+        height: 4rem;
         list-style: none;
+        text-decoration: none;
+        width: 10rem;
 
         &:hover{
-            border-bottom: 5px dotted;
-            text-shadow: 0px 0px 20px wheat;
+            text-shadow: 0px 0px 20px wheat, 0px 0px 30px wheat, 0px 0px 40px wheat;
         }
     }
     
     @media only screen and (min-width: 360px) and (max-width: 800px){
-        text-align: center;
+        a{
+            margin: 0 auto;
+        }
     }
 `
 export const Box = styled.section`
@@ -71,7 +81,7 @@ export const Section = styled.section`
     }
 
     img{
-        width: 12rem;
+        width: 15rem;
     }
 
     p{

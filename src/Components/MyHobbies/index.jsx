@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import Astronauta from "../../Assets/Drika_Astronauta.png"
 import Croche from "../../Assets/crochê.png"
 import Academia from "../../Assets/musculação.png"
 import TV from "../../Assets/Filme.png"
@@ -11,7 +12,7 @@ export default function MyHobbies() {
     return (
         <S.Container>
             <S.Home>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta"/>Início</Link>
             </S.Home>
 
             <h1>Meus Hobbies</h1>

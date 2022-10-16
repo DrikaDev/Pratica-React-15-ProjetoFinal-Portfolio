@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import Astronauta from "../../Assets/Drika_Astronauta.png"
 import DesenhoDrikaTec from "../../Assets/Eunomicro.png"
 import Html from "../../Assets/html.png"
 import CSS from "../../Assets/css.png"
@@ -14,7 +15,7 @@ export default function MySkills() {
         <S.Container>
 
             <S.Home>
-                <Link to="/">Home</Link>
+                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta" />Início</Link>
             </S.Home>
 
             <S.Box>
@@ -38,7 +39,7 @@ export default function MySkills() {
                             <img src={FotoReact} alt="Logo React" />
                             <img src={Git} alt="Logo Git" />
                         </figure>
-                        
+
                     </S.Tecnologies>
 
                 </S.Section>
