@@ -13,6 +13,7 @@ export const Container = styled.body`
     justify-content: space-between;
 
     h5{
+        text-shadow: 0 0 5px white;
         font-size: 1rem;
         height: 2rem;
         padding-left: 13rem;

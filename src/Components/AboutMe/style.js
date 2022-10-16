@@ -1,17 +1,6 @@
 import styled from "styled-components";
 import Background from "../../Assets/Background.1.jpg"
 
-export const Container = styled.section`
-    background-image: url(${Background});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-`
-
 export const Home = styled.div`
     height: 3rem;
     width: 100%;
@@ -44,6 +33,16 @@ export const Home = styled.div`
     }
 `
 
+export const Container = styled.section`
+    background-image: url(${Background});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+`
 export const AboutMe = styled.div`
     height: 90vh;
     width: 100%;
