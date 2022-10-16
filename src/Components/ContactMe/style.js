@@ -96,7 +96,16 @@ export const Container = styled.section`
 
         p{
             margin-top: 1rem;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        @keyframes typewriter {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 90%;
+            }
         }
     }
 `
