@@ -21,6 +21,6 @@ Exercício proposto para treinarmos os estudos com React seguindo as seguintes i
 
 Projeto desenvolvido para Desktop e Mobile 😁
 
-![Portfólio Desktop](https://user-images.githubusercontent.com/102387476/195737970-4156fb41-3cde-413e-949b-6c804abc3bd6.jpg)
+![Portfólio Desktop](https://user-images.githubusercontent.com/102387476/196011902-2b4e210d-6431-40fa-8c02-bb1f57920aeb.jpg)
 
-![Portfólio Mobile](https://user-images.githubusercontent.com/102387476/195738295-04f0d8be-f758-4419-8b3a-05ad12108619.jpg)
+![Portfólio Mobile](https://user-images.githubusercontent.com/102387476/196011904-834fe18b-a6ab-408c-879e-9059a65718f5.jpg)
