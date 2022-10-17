@@ -44,27 +44,26 @@ export const Container = styled.section`
 
     h1{
         color: whitesmoke;
-        font-size: 3rem;
+        font-size: 2.5rem;
         letter-spacing: 1rem;
         text-align: center;
         text-shadow: 0px 0px 20px wheat;
         width: 100%;
-        margin-bottom: 1rem;
     }
 
     h2{
         color: wheat;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         width: 100%;
         margin-top: 2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     p{
         color: wheat;
         font-size: 2rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         text-align: center;
         width: 100%;
 
@@ -79,7 +78,7 @@ export const Container = styled.section`
             width: 0%;
         }
         to {
-            width: 37%;
+            width: 45%;
         }
     }
 
@@ -101,11 +100,12 @@ export const Container = styled.section`
         }
 
         h2{
+            line-height: 2.5rem;
             font-size: 1.5rem;
         }
 
         p{
-            margin-top: 1rem;
+            margin-top: 1.5rem;
             font-size: 1.3rem;
         }
 
@@ -126,7 +126,7 @@ export const BoxContactMe = styled.div`
     align-items: center;
 
     img{
-        width: 24.5rem;
+        width: 20rem;
         transition: 1s all;
 
         &:hover{
