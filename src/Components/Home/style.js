@@ -10,7 +10,6 @@ export const Container = styled.body`
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     h5{
         text-shadow: 0 0 5px white;
@@ -21,12 +20,12 @@ export const Container = styled.body`
     }
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
-        background-position: 35%;
+        background-position: 33%;
+        height: 110vh;
 
         h5{
             height: 4rem;
             margin: 0 auto;
-            margin-top: 1rem;
             padding-left: 0;
             text-align: center;
             width: 90%;
@@ -37,7 +36,7 @@ export const Container = styled.body`
 export const Box = styled.div`
     display: flex;
     flex-direction: column;
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     
     ul{
@@ -68,10 +67,15 @@ export const Box = styled.div`
         flex-direction: column-reverse;
 
         ul{
-            flex-direction: column;
             align-items: flex-end;
-            height: 13rem;
+            flex-direction: column;
+            margin-bottom: 1rem;
             padding-right: 1rem;
+        }
+
+        li{
+            line-height: 2.5rem;
+            font-size: 1.5rem;
         }
 
         a{
@@ -82,13 +86,13 @@ export const Box = styled.div`
 
 export const Title = styled.div`
     margin-top: 5rem;
-    margin-left: 35rem;
+    margin-left: 30rem;
     width: 40rem;
 
     p{
         width: 40rem;
         color: white;
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
         animation-name: shine;
         animation: shine 1.5s infinite alternate ease-in-out;
@@ -105,14 +109,14 @@ export const Title = styled.div`
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
         width: 100%;
-        margin-bottom: 10rem;
+        margin-bottom: 13rem;
         margin-top: 1rem;
         margin-left: 0;
         
         p{
             width: 100%;
-            font-size: 2rem;
-            line-height: 3rem;
+            font-size: 1.7rem;
+            line-height: 2.8rem;
         }
     }
 `

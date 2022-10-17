@@ -25,7 +25,8 @@ export const Home = styled.div`
         }
     }
     
-    @media only screen and (min-width: 360px) and (max-width: 800px){
+    @media screen and (min-width: 360px) and (max-width: 900px){
+        //mobile
         img{
             width: 3rem;
         }
@@ -33,6 +34,14 @@ export const Home = styled.div`
         a{
             margin: 0 auto;
         }
+    }
+
+    @media screen and (min-width: 820px) and (max-width: 1180px){
+        //tablet
+    }
+
+    @media screen and (min-width: 1080px) and (max-width: 1980px){
+        //desktop
     }
 `
 export const Container = styled.section`
