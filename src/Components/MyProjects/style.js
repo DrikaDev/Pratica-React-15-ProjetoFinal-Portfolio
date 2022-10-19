@@ -44,7 +44,7 @@ export const Container = styled.section`
 
     h1{
         color: whitesmoke;
-        font-size: 3rem;
+        font-size: 2.5rem;
         letter-spacing: 1rem;
         text-align: center;
         text-shadow: 0px 0px 20px wheat;
@@ -53,7 +53,7 @@ export const Container = styled.section`
 
     h3{
         color: wheat;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin-top: 1rem;
         text-align: center;
         width: 100%;
@@ -69,6 +69,7 @@ export const Container = styled.section`
 
         h3{
             font-size: 1.2rem;
+            line-height: 2rem;
         }
     }
 `
@@ -76,26 +77,25 @@ export const Box_Projects = styled.section`
 
     img{
         height: 20rem;
-        margin-bottom: 1rem;
         object-fit: contain;
-        width: 40rem;
+        width: 35rem;
     }
 
     h2{
         color: wheat;
-        font-size: 1.5rem;
-        margin-top: 2rem;
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
         margin-bottom: 1rem;
         text-align: center;
         text-shadow: 0px 0px 10px wheat;
-        width: 40rem;
+        width: 35rem;
     }
 
     p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 2rem;
         text-align: center;
-        width: 40rem;
+        width: 35rem;
     } 
     
     a{
@@ -115,7 +115,7 @@ export const Box_Projects = styled.section`
             width: 24rem;
         }
 
-        p{
+        p{            
             font-size: 1.2rem;
             width: 24rem;
         }

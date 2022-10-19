@@ -101,7 +101,7 @@ export const Container = styled.section`
 
         h2{
             line-height: 2.5rem;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
 
         p{
