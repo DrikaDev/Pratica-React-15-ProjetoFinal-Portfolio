@@ -10,6 +10,7 @@ import LOL from "../../Assets/LeagueOfLegends.jpg"
 import Convite from "../../Assets/Convite.jpg"
 import Decofidicador from "../../Assets/Decodificador.png"
 import ODS from "../../Assets/ODS.jpg"
+import Finn from "../../Assets/Finn.jpg"
 import Carousel from "nuka-carousel/lib/carousel";
 import * as S from "./style"
 
@@ -54,6 +55,12 @@ export default function MyProjects() {
                     //     pagingDotsStyle: {fill: "none"} 
                     // }}
                 >
+                    <div>
+                        <h2>Projeto: Desafio ODS Jaçanã</h2>
+                        <img src={ODS} alt="Foto do ODS Jaçanã"/>
+                        <p><a href="https://odsnojacana.netlify.app/" target="_blank">Clique aqui para ver o site</a></p>
+                        <p><a href="https://github.com/DrikaDev/Pratica-React-15-ODS-Jacana/" target="_blank">Clique aqui para ver o repositório</a></p>
+                    </div>
 
                     <div>
                         <h2>Projeto: API Harry Potter</h2>
@@ -112,10 +119,10 @@ export default function MyProjects() {
                     </div>
 
                     <div>
-                        <h2>Projeto: Desafio ODS Jaçanã</h2>
-                        <img src={ODS} alt="Foto do ODS Jaçanã"/>
-                        <p><a href="https://odsnojacana.netlify.app/" target="_blank">Clique aqui para ver o site</a></p>
-                        <p><a href="https://github.com/DrikaDev/Pratica-React-15-ODS-Jacana/" target="_blank">Clique aqui para ver o repositório</a></p>
+                        <h2>Projeto: Desenhando o Finn com CSS</h2>
+                        <img src={Finn} alt="Foto desenho do Finn"/>
+                        <p><a href="https://drikadev.github.io/Desafio10.Finn/" target="_blank">Clique aqui para ver o site</a></p>
+                        <p><a href="https://github.com/DrikaDev/Desafio10.Finn/" target="_blank">Clique aqui para ver o repositório</a></p>
                     </div>
 
                 </Carousel>
