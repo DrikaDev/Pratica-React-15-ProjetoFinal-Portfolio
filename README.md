@@ -1,4 +1,4 @@
-# Pratica-React-15-ProjetoFinal-Portfolio 
+# Pratica-React-15-ProjetoFinal-Portfolio <img src="https://i.ibb.co/QpLTKSz/badge-M2-T2.png" alt="Badge Vai Na Web T2.1" width="95" align="right">
 
 ## Uhullllll 😍✨👏🏼
 É com muito prazer que finalmente apresento o desafio final do curso de Front-End do Vai Na Web! 🚀🧑🏻‍🚀\
