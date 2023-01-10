@@ -30,6 +30,7 @@ export default function Home() {
                     <p>Olá =)</p>
                     <p>Sou Adriana Gutierrez,</p>
                     <p>Desenvolvedora de Front-End!</p>
+                    <p>Seja muito bem-vindo(a) ao meu portfólio!</p>
                 </S.Title>
             </S.Box>
 

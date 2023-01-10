@@ -109,13 +109,12 @@ export const Title = styled.div`
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
         width: 100%;
-        margin-bottom: 13rem;
-        margin-top: 1rem;
+        margin-bottom: 10rem;
         margin-left: 0;
         
         p{
             width: 100%;
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             line-height: 2.8rem;
         }
     }

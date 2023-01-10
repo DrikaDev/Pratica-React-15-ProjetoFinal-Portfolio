@@ -21,7 +21,7 @@ export default function AboutMe() {
 
                     <div>
                         <p>Olá, muito prazer, sou Adriana Gutierrez, mas pode me chamar de Drika Dev!</p>
-                        <p>Iniciei meus estudos com tecnologia este ano e estou amando e curtindo cada aprendizado!</p>
+                        <p>Iniciei meus estudos com tecnologia em Janeiro de 2022 e estou amando e curtindo cada aprendizado!</p>
 
                         <p>Sempre gostei muito de computador e artesanato (sou bastante criativa e caprichosa), por isso,
                             desejo me tornar uma Dev de Front-End para unir estas duas coisas que gosto muito e usar 

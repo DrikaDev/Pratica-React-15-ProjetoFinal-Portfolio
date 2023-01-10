@@ -25,7 +25,7 @@ export default function MyHobbies() {
 
                 <div>
                     <img class="move" src={Academia} alt="Desenho fazendo musculação" />
-                    <p>Gosto de fazer atividades físicas. Curto fazer aulas de bike e musculação na academia.</p>
+                    <p>Gosto de fazer atividades físicas. Curto fazer aulas de bike e musculação.</p>
                 </div>
 
                 <div>
@@ -42,7 +42,7 @@ export default function MyHobbies() {
                 <div>
                     <img class="move" src={Costurar} alt="Desenho costurando" />
                     <p>Gosto de costurar para decorar minha casa, customizar peças de roupas, 
-                        e fazer itens para meu filho como mochila ou almofadas.</p>
+                        e fazer itens para meu filho como brinquedos de pano ou etc.</p>
                 </div>
                 
             </S.Box_Hobbies>

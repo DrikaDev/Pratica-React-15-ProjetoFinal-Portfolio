@@ -4,6 +4,7 @@ import Astronauta from "../../Assets/Drika_Astronauta.png"
 import Unip from "../../Assets/unip.png"
 import Uninove from "../../Assets/uninove.png"
 import VaiNaWeb from "../../Assets/VaiNaWeb.png"
+import Anhanguera from "../../Assets/anhanguera.png"
 import * as S from "./style"
 
 export default function AcademicFormation() {
@@ -46,9 +47,18 @@ export default function AcademicFormation() {
                 <div>
                     <img src={VaiNaWeb} alt="Logo VaiNaWeb" />
                     <S.Paragrafo>
-                        <p>Técnico de Front-End</p>
+                        <p>Técnico de FrontEnd</p>
                         <p>2022</p>
                         <p>Concluído</p>
+                    </S.Paragrafo>
+                </div>
+
+                <div>
+                    <img src={Anhanguera} alt="Logo Anhanguera" />
+                    <S.Paragrafo>
+                        <p>Análise e Desenvolvimento de Sistemas</p>
+                        <p>2023 - 2024</p>
+                        <p>Em andamento</p>
                     </S.Paragrafo>
                 </div>
             </S.Box_AcademicFormation>

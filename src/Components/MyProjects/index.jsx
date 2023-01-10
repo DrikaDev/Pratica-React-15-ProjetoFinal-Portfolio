@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import { Link } from "react-router-dom"
 import Astronauta from "../../Assets/Drika_Astronauta.png"
 import Harry from "../../Assets/HarryPotter.png"
@@ -11,7 +11,8 @@ import Convite from "../../Assets/Convite.jpg"
 import Decofidicador from "../../Assets/Decodificador.png"
 import ODS from "../../Assets/ODS.jpg"
 import Finn from "../../Assets/Finn.jpg"
-import Carousel from "nuka-carousel/lib/carousel";
+import Mario from "../../Assets/Jump Mario.jpg"
+import Carousel from "nuka-carousel/lib/carousel"
 import * as S from "./style"
 
 const estiloDoCarrossel = {
@@ -44,17 +45,24 @@ export default function MyProjects() {
             <S.Box_Projects>
 
                 <Carousel {...estiloDoCarrossel}
-                    // autoplay={true}
+                    autoplay={true}
                     // autoplayInterval={2000}
                     // slidesToShow={2}
                     // wrapAround={true}
                     // cellSpacing={200}
-                    // defaultControlsConfig={{
-                    //     nextButtonText: ">",
-                    //     prevButtonText: "<",
-                    //     pagingDotsStyle: {fill: "none"} 
-                    // }}
+                    defaultControlsConfig={{
+                    nextButtonText: ">",
+                    prevButtonText: "<",
+                    pagingDotsStyle: {fill: "none"} 
+                    }}
                 >
+                    <div>
+                        <h2>Desafio Jump Mario</h2>
+                        <img src={Mario} alt="Foto do desafio Jump Mario"/>
+                        <p><a href="https://the-jumping-mario.netlify.app/" target="_blank">Clique aqui para ver o site</a></p>
+                        <p><a href="https://github.com/DrikaDev/Jump-Mario" target="_blank">Clique aqui para ver o repositório</a></p>
+                    </div>
+
                     <div>
                         <h2>Desafio ODS Jaçanã</h2>
                         <img src={ODS} alt="Foto do ODS Jaçanã"/>

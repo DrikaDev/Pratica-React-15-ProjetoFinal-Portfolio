@@ -18,7 +18,7 @@ export default function AboutMe() {
             </S.Home>
 
             <h1>Fale Comigo!</h1>
-            <h2>Clique nos ícones abaixo e entre em contato através do Email, WhatsApp ou me siga nas redes sociais.</h2>
+            <h2>Clique nos ícones abaixo para entrar em contato comigo!</h2>
 
             <S.BoxContactMe>
 
@@ -26,7 +26,7 @@ export default function AboutMe() {
                     <a href="mailto:adriguti.adriana@hotmail.com" target="_blank" rel= "noopener noreferrer"><img src={Email} alt="Logo do Email" /></a>
                     <a href ="https://wa.me/5511970371923" target="_blank" rel= "noopener noreferrer"><img src={Whats} alt="Logo do Whatsapp"/></a>
                     <a href="https://www.linkedin.com/in/drikadev/" target="_blank" rel= "noopener noreferrer"><img src={Linkedin} alt="Logo do Linkedin" /></a>
-                    <a href="https://www.instagram.com/drika_dev/" target="_blank" rel= "noopener noreferrer"><img src={Instagram} alt="Logo do Instagram" /></a>
+                    <a href="https://www.instagram.com/drika_guti_guti/" target="_blank" rel= "noopener noreferrer"><img src={Instagram} alt="Logo do Instagram" /></a>
                     <a href="https://github.com/DrikaDev" target="_blank" rel= "noopener noreferrer"><img src={GitHub} alt="Logo do GitHub" /></a>
                 </S.BoxSocialNetworks>
 
